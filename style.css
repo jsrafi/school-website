@@ -79,13 +79,203 @@
     background-size: cover;
     height: 450px;
 }
+.frst-dv img
+{
+    width: 66px;
+    height: 85px;
+
+}
+.frst-dv
+{
+    border: 1px solid #F8FFFB;
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 30px;
+    background-color: #F8FFFB;
+}
+.second-dv
+{
+    box-shadow: 10px 10px 20px;
+    background-color: white !important;
+}
+.frst-dv h2
+{
+    padding-top: 20px;
+}
+.second .huh
+{
+    display:flex;
+    float: left;
+    padding-top: 40px; 
+    padding-left: 60px;
+}
+.second
+{
+    height: 450px;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    border: 1px solid white;
+}
+.third-modify
+{
+    display: flex;
+    float: left;
+    position: relative;
+    left: 61px;
+    padding-top: 40px;
+    
+}
+.mejaj h1
+{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+}
+.third-dv img
+{
+    width: 331px;
+    height: 234px;
+    padding-top: 20px;
+}
+.third-dv h3
+{
+    padding-top: 20px;
+    font-size:x-large;
+    color: #413960;
+}
+.third-dv button
+{
+    padding: 8px 28px;
+    border-radius: 33px;
+    color: white;
+    background-color:  #21B573;
+    border: 1px solid    #05f368;
+}
+.third-dv
+{
+    border: 1px solid white;
+    border-radius: 18px;
+    box-shadow: 10px 10px 20px;
+    text-align: center;
+    width: 370px;
+    height: 480px;
+    margin-left: 30px;
+}
+.third-dv  .logo
+{
+    width: 18px;
+    height: 37px;
+    margin-left: 30px;
+}
+.third-dv  .logo2
+{
+    width: 18px;
+    height: 37px;
+    margin-left: 50px;
+}
+.logo-text
+{
+    display: flex;
+    float: left;
+    padding-top: 20px;
+}
+.logo-text p
+{
+    padding-left: 10px;
+    font-weight: 500;
+    padding-top: 16px;
+}
+.mejaj
+{
+    background-color:white;
+    height: 700px;
+    background-size: cover;
+}
+.posit
+{
+    position: absolute;
+}
+.fourth
+{
+    width: 100%;
+    height: 400px;
+    
+}
+.fourth h1
+{
+    font-weight: bold;
+    text-align: center;
+}
+.img-text img
+{
+    width: 250px;
+    filter: drop-shadow(5px 5px 10px #555);
+}
+.img-text p
+{
+    width: 600px;
+    padding-top: 80px;
+}
+.img-text
+{
+    display: flex;
+    float: left;
+    position: relative;
+    left: 250px;
+}
+.final p
+{
+    width: 35%;
+}
+.final
+{
+    display: flex;
+    float: left;
+    color: white;
+    padding-top: 50px;
+    text-decoration: none;
+    
+}
+.list{
+    display: flex;
+    float: left;
+}
+.finally
+{
+    width: 100%;
+    height: 300px;
+    background-color:  #282531;
+}
+.finally .rafi
+{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 20px;
+    font-size: small;
+    
+}
+.not-same
+{
+    margin-left: 60px;
+}
+
+.same
+{
+    margin-left: 130px;
+    list-style-type: none;
+}
 @media only screen and (max-width:990px)
 {
     .first
 {
     background-color:#F0FFF0;
     background-size: cover;
-    height: 700px;
+    height: auto;
 }
 .feature-img
 {
@@ -112,6 +302,95 @@
 {
     
     margin-left: 0;
+}
+.second .huh
+{
+    display:contents;
+    
+}
+.second
+{
+    height: auto;
+}
+.frst-dv
+{
+    margin-top: 30px;
+    position: relative;
+    left: 80px ;
+    
+}
+.third-modify
+{
+    display: contents;
+    position: absolute;
+       
+}
+.mejaj{
+    height: auto;
+}
+.third-dv
+{
+    margin-top:30px;
+    position: relative;
+    left: 27px;
+    
+}
+.img-text
+{
+    display: contents;
+}
+.fourth img
+{
+    position: relative;
+    left: 120px;
+    filter: drop-shadow(5px 5px 10px #555);
+}
+.fourth p
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+}
+.fourth h1
+{
+    padding-top: 60px;
+}
+.fourth
+{
+    height: 550px;
+    
+}
+.final
+{
+    display: contents;
+}
+.finally
+{
+    height: auto;
+}
+.final .not-same
+{
+    width: 75%;
+    text-align: center;
+   padding: 0;
+   padding-top: 20px;
+  
+}
+.final .list
+{
+    display: flex;
+    float: left;
+   
+}
+.same
+{
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.finally
+{
+    width: 100%;
+    height: 400px;
 }
 
 }
