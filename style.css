@@ -316,7 +316,7 @@
 {
     margin-top: 30px;
     position: relative;
-    left: 80px ;
+    left: 30px ;
     
 }
 .third-modify
@@ -332,7 +332,10 @@
 {
     margin-top:30px;
     position: relative;
-    left: 27px;
+    left: 15px;
+    padding-left: 0;
+    margin-left: 0;
+    
     
 }
 .img-text
@@ -342,7 +345,7 @@
 .fourth img
 {
     position: relative;
-    left: 120px;
+    left: 85px;
     filter: drop-shadow(5px 5px 10px #555);
 }
 .fourth p
@@ -374,6 +377,7 @@
     text-align: center;
    padding: 0;
    padding-top: 20px;
+   margin-left: 45px;
   
 }
 .final .list
@@ -384,7 +388,7 @@
 }
 .same
 {
-    margin-left: 50px;
+    margin-left: 22px;
     padding-top: 20px;
 }
 .finally
